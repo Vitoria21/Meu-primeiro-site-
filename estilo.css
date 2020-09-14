@@ -1,9 +1,9 @@
 body{
     margin: 0;
-
+    
 }
 #capa{
-    background: url(img/flores\ rosas.jpeg);
+    background: url(img/flores\ rosas\ 2.jpeg);
     height: 660px;
     text-align: center;
     background-size: 100% 100%;
@@ -12,85 +12,18 @@ body{
 }
 h1{
     font-size: 70px;
-    color: white;
+    color: rgb(150, 209, 248);
     text-shadow: 5px 3px black;
-    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+h2{
+    margin: 0 350px 30px;
+    color: rgb(233, 248, 229);
+    text-shadow: 4px 2px rgb(7, 49, 11);
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
     
-}
-#capa h2{
-    border: green 3px solid;
-}
-#titulo{
-    text-align: center;
-    font-size: 19px;
-    font-family: 'Times New Roman', Times, serif;
-    padding-top: 25px;
-}
-#projeto{
-    padding-right: 90px;
-    padding-left: 100px;
-    padding-top: 30px;
-    text-align: center;
-    width: 40%;
-    box-sizing: border-box;
-    float: left;
-    font-size: 20px;
-}
-
-.grafico{
-    float: left;
-    box-sizing: border-box;
-    padding-left: 100px;
-    padding-top: 100px;
-    
-}
-#grafico img{
-    width: 700px;
-    height: 450px;
-    padding-top: 60px;
-}
-#titulo2{
-    text-align: center;
-    font-size: 19px;
-}
-.cor{
-    background: rgba(170, 165, 165, 0.151);
-}
-#banco{
-    float: left;
-    text-align: center;
-    height: 580px;
-    width: 25%;
-    box-sizing: border-box;
-    font-size: 20px;
-    padding-left: 30px;
-  
-}
-#funciona{
-    float: left;
-    box-sizing: border-box;
-    width: 25%;
-    height: 400px;
-    text-align: center;
-    font-size: 20px;
-    padding-left: 40px;
-   
-}
-#brotinho img{
-   width: 430px;
-   height: 400px;
-
-   
-}
-#brotinho{
-    box-sizing: border-box;
-    float: left;
-    padding-top: 90px;
-    padding-left: 130px;
-}
-h4{
-    font-size: 22px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #capa a{
     text-decoration: none;
@@ -99,22 +32,21 @@ h4{
     text-shadow: 2px 2px black;
     border-radius: 5px;
     border: black 2px solid;
+    
+
 }
 #capa a:hover{
     background-color: rgba(58, 90, 10, 0.74);
 }
-#cor2{
-    background: rgba(106, 223, 106, 0.164);
-}
 .logo{
     width: 120px;
-    height: 68px;
+    height: 63px;
 }
 #cabecalho{
     background-color: rgb(131, 18, 93);
     position: fixed;
     width: 100%;
-    height: 70px;
+    height: 60px;
     z-index: inherit;
 }
 #contato{
@@ -123,66 +55,302 @@ h4{
 }
 ul{
     list-style: none;
+    margin: 0;
 }
 nav{
     float: right;
+    margin: 0;
 }
 li{
     float: left;
-    padding: 7px;
-    padding-left: 5px;
+    padding: 20px 8px;
+    margin: 0;
 }
 li a{
     text-decoration: none;
-    color: white;
+    color: rgb(160, 248, 157);
     font-size: 20px;
+    padding-bottom: 40px;
 }
-.email img{
-    height: ;
+#cabecalho li:hover{
+    background-color: rgba(179, 24, 127, 0.397);
+    padding-bottom: 17px;
+    transition: .6s;
 }
-email{
+#projeto{
+    border-left: rgb(33, 65, 33) 40px solid;
+    margin: 0;
+    box-sizing: border-box
+}
+.projeto{
     float: left;
-    border: green 2px dotted;
-    padding-top: 100px;
+    padding: 0 5%;
+    width: 40%;
+    font-size: 20px;
+    padding-top: 3%;
+    margin-bottom: 6%;
+    text-align: justify;
+    margin: 0;
 }
-.instagram img{
-    width: 60px;
-}
-instagram{
+.projeto h3{
     float: left;
-    border: green 2px solid;
-    padding-top: 100px;
-}
-facebook img{
-    width: 60px;
-}
-facebook{
-    float: left;
-    border: red 2px solid;
-    padding-top: 100px;
-}
-#rodape img{
-    width: 120px;
-    height: 68px;
-    border: black 2px solid;
-}
-#rodape{
-    background-color: rgb(131, 18, 93);
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 30%; 
+    margin-left: 47%;
+    padding-bottom: 10%;
+    padding-right: 90px;
+    text-align: right;
+    font-size: 29px;
+    font-family: 'Roboto Condensed', sans-serif;
     
-
-
+}
+#imagedois{
+    width: 100%;
+    padding-top: 29%;
+    margin: 0;
+    
+}
+#banco{
+    border-left: rgb(28, 102, 28) 40px solid;
+    margin: 0;
+    box-sizing: border-box;
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    width: 40%;
+    font-size: 20px;
+    padding-right: 2%;
+    margin: 0;
+}
+.coluna h3{
+    float: right;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-right: 235px;
+    margin-bottom: 10%;
+    padding-right: 180px;
+    padding-bottom: 0px;
+    padding-top: 12%;
+    font-size: 29px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+#image{
+    width: 80%;
+    padding-top: 29%;
+    margin: 0;
+    
+}
+.colunadois{
+    float: left;
+    padding: 0 5%;
+    width: 40%;
+    font-size: 20px;
+    padding-top: 3%;
+    padding-right: 1%; 
+    margin: 0;
+}
+#cordois{
+    background-color: #f7f7f7;
+    float: left;
+    
+}
+#curiosidades{
+    border-left: rgb(46, 145, 46) 40px solid;
+    margin: 0;
+    box-sizing: border-box;
+}
+#curiosidades h3{
+    padding-top: 55px;
+    font-size: 29px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:0;
+    padding-right: 11%;
 }
 #indigenas{
-    clear: both;
-    border: green 3px solid;
+    margin: 0;
+    float: left;
     text-align: center;
-    width: 45%;
-    height: 350px;
+    width: 40%;
+    height: 500px;
+    font-size: 20px;
+    padding-left: 3%;
+    margin: 0;
+}
+#indigenas img{
+    width: 30%;
+    margin: 0;
+}
+#mulheres{
+    float: left;
+    width: 43%;
+    height: 500px;
+    padding-left: 6%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    
+}
+#mulheres img{
+    width: 30%;
+    margin: 0;
+}
+#plantar{
+    border-left: rgb(20, 167, 20) 40px solid;
+    margin: 0;
+    box-sizing: border-box;
+}
+.lista h3{
+    padding-bottom: 15%;
+    font-size: 29px; 
+    font-family: 'Roboto Condensed', sans-serif;
+    float: left;
+    width: 100%;
+    padding-left: 54%;
+    text-align: center;
+    margin: 0;
+    
+}
+.lista{
+    float: left;
+    padding: 0 5%;
+    width: 40%;
+    font-size: 20px;
+    padding-top: 4%;
+    margin: 0;
+    
+}
+#ifram{
+    padding-top: 20%;
+    margin: 0;
+    
+}
+.listadois{
+    float: right;
+     width: 600px;
+     font-size: 20px;
+     padding-top: 90px;
+     padding-right: 5%;
+     margin: 0;
+     
+ }
+.iframedois{
+     box-sizing: border-box;
+     display: flex;
+     padding-top: 10%;
+     padding-right: 5%; 
+     padding-left: 5%;
+     margin: 0;
+     width: 50%;
+ 
+ }
+#projeto,#banco,#curiosidades,#plantar{
+    float: left;
+   width: 100%;
+}
+.lista li{
+    margin: 0;
+    padding: 10px;
+    clear: both;
+    
+}
+ul.disc{
+    list-style-type: disc;
+}
+#apresentacao{
+    border-left: rgb(12, 209, 12) 40px solid;
+    margin: 0;
+    box-sizing: border-box;
+}
+.colunatres h3{
+    float: left;
+    width: 100%;
+    padding-left: 49%;
+    text-align: center;
+    font-size: 29px; 
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.colunatres{
+    margin: 0;
+    float: left;
+    padding: 0 5%;
+    width: 40%;
+    font-size: 20px;
+    padding-left: 8%;
+}
+.colunatres img{
+    padding-top: 30%;
+}
+#contato{
+    background-color: rgb(36, 28, 73);
+    width: 100%;
+    height: 160px;
+    float: left;
+    margin:0;
+    position: relative;
+    padding: 0;
+}
+.finalizacao {
+    margin: 0;
+    float: left;
+    padding: 0 5%;
+    width: 40%;
+    color: rgb(174, 157, 248);
+}
+.finalizacao h6{
+    font-size: 29px;
+    float: right;
+    padding-bottom: 0;
+    padding-right: 30%;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+.finalizacao p{
+    float: right;
+    margin-top: 3%;
+    padding-right: 22%;
+    font-size: 20px;
 
 }
-#titulo3{
-    text-align: center;
-    font-size: 19px;
-    clear: both;
-    border: red 3px dotted;
+.finalizacao a{
+    text-decoration: none;
+    color: rgb(174, 157, 248);
+}
+.email img{
+    width: 3%;
+    float: left;
+    padding: 1% 0 0 3%;
+}
+.email address{
+    display: flex;
+    color: rgb(174, 157, 248);
+    padding: 1.7% 0 0 1%;
+
+}
+.instagram address{
+    color: #ae9df8;
+    padding: 2.6% 0 0 0;
+   
+}
+.instagram img{
+    width: 15%;
+    float: left;
+    padding: 1% 0 0 0;
+    margin: 0;
+
+}
+.telefone img{
+    width: 5%;
+    float: left;
+    padding: 2.5% 0 0 0;
+}
+.telefone address{
+    color: #ae9df8;
+    float: left;
+    padding: 3% 0 0 0;
 }
