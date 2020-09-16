@@ -782,7 +782,7 @@ footer{
         width: 15%;
         float: none;
         display: block;
-        padding-top: 3%;
+        padding-top: 1%;
         padding-left: 3%;
        
     }
@@ -838,7 +838,7 @@ footer{
        box-sizing: border-box;
     }
     .logo{
-        width: 20%;
+        width: 10%;
        padding-right: 0;
         height: 100%;
         box-sizing: border-box;
@@ -846,6 +846,7 @@ footer{
     #cabecalho{
         box-sizing: border-box;
         width: 100%;
+        height: 30%;
     }
     #projeto{
         float: none;
