@@ -117,7 +117,7 @@ h2{
     display: block;
 }
 #menu img{
-    width: 5%;
+    width: 15%;
 }
 #menu{
     color: rgb(174, 157, 248);
@@ -133,7 +133,7 @@ h2{
 }
 
 #check:checked ~ .barra{
-    transform: translateX(300px);
+    transform: translateX(450px);
 }
 #check:checked ~ .barra nav a .link{
     opacity: 1;
