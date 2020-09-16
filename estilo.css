@@ -695,6 +695,7 @@ footer{
         float: right;
         padding-right: 3%;
         box-sizing: border-box;
+        width: 20%;
     }
     .menum nav{
         visibility: hidden;
@@ -792,7 +793,7 @@ footer{
     }
     .colunadois{
         float: none;
-        width: 85%;
+        width: 75%;
         font-size: 18px;
         text-align: center;
         padding-left: 7%;
@@ -822,6 +823,7 @@ footer{
         text-align: center;
         padding-left: 10%;
         height: 0%;
+        margin-bottom: 130%;
     }
     #mulheres{
         float: none;
