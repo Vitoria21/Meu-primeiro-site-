@@ -726,14 +726,14 @@ footer{
        box-sizing: border-box;
     }
     .logo{
-        width: 10%;
+        width: 20%;
        padding-right: 0;
         height: 100%;
         box-sizing: border-box;
     }
     #cabecalho{
         box-sizing: border-box;
-        width: 96.7%;
+        width: 100%;
     }
     #projeto{
         float: none;
@@ -837,7 +837,7 @@ footer{
     
     }
     #mulheres img{
-        padding-top: 2%;
+        padding-top: 30%;
         box-sizing: border-box;
     }
     #plantar{
