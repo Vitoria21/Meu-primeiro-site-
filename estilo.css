@@ -544,7 +544,7 @@ footer{
         font-size: 18px;
         text-align: center;
         padding-left: 10%;
-        padding-bottom: 10%;
+        padding-bottom: 8%;
     }
     #mulheres{
         float: none;
@@ -556,7 +556,7 @@ footer{
        
     }
     #mulheres img{
-        margin-top: 3%;
+        margin-top: 5%;
     }
     #plantar{
         float: none;
