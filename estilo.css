@@ -697,6 +697,8 @@ footer{
     }
     .menu img{
         width: 3%;
+        float: none;
+        display: block;
     }
     h2{
         margin: 0;
@@ -818,7 +820,7 @@ footer{
         width: 78%;
         font-size: 18px;
         text-align: center;
-        padding-left: 5%;
+        padding-left: 0;
         margin: 0;
     
     }
