@@ -424,6 +424,10 @@ footer{
     .logo{
         visibility: hidden;
     }
+    .menu{
+        float: none;
+        display: block;
+    }
     h2{
         margin: 0;
         width: 80%;
