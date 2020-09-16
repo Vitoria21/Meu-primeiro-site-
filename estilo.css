@@ -39,47 +39,108 @@ h2{
     background-color: rgba(58, 90, 10, 0.74);
 }
 .logo{
-    width: 120px;
-    height: 63px;
+    width: 5%;
+    height: 100%;
+    padding-left: 1%;
+    
 }
 #cabecalho{
     background-color: rgb(131, 18, 93);
     position: fixed;
     width: 100%;
-    height: 60px;
+    height: 10%;
     z-index: inherit;
 }
 #contato{
     width: 120px;
     height: 68px;
 }
-ul{
-    list-style: none;
-    margin: 0;
-}
-nav{
-    float: right;
-    margin: 0;
-}
-li{
-    float: left;
-    padding: 20px 8px;
-    margin: 0;
-}
-li a{
-    text-decoration: none;
-    color: rgb(160, 248, 157);
-    font-size: 20px;
-    padding-bottom: 40px;
-}
-#cabecalho li:hover{
+.menum li:hover{
     background-color: rgba(179, 24, 127, 0.397);
     padding-bottom: 17px;
     transition: .6s;
 }
+.menum nav{
+    float: right;
+}
+.menum ul{
+    list-style: none;
+    margin: 0;
+}
+.menum li{
+   float: left;
+    padding: 5% 8px;
+    margin: 0;
+}
+.menum li a{
+    text-decoration: none;
+    color: rgb(160, 248, 157);
+    font-size: 20px;
+}
+.menu{
+    visibility: hidden;
+}
+#icone img{
+    width: 12%; 
+}
+#check{
+    display: none;
+}
+#icone{
+    cursor: pointer;
+    padding: 2%;
+    position: absolute;
+    z-index: 1;
+}
+.barra{
+    height: 47.5%;
+    width: 20%;
+    position: absolute;
+    transition: all .2s linear;
+    background-color: rgb(36, 28, 73);
+    left: -300px;
+    
+}
+.barra nav{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+.barra nav a{
+    text-decoration: none;
+    padding-top: 10%;
+}
+.menu ul{
+    list-style: none;
+}
+.menu a{
+    display: block;
+}
+.link{
+    color: rgb(174, 157, 248);
+    padding: 0;
+    font-family: 'Arial';
+    font-size: 20px;
+    transition: all .2s linear;
+    border-bottom: 1px solid rgba(174, 157, 248, 0.555);
+   
+}
+.link:hover{
+    background-color: rgb(27, 27, 117);
+}
+
+#check:checked ~ .barra{
+    transform: translateX(300px);
+}
+#check:checked ~ .barra nav a .link{
+    opacity: 1;
+    margin-top: 0;
+    transition-delay: .1s; 
+}
 #projeto{
     border-left: rgb(33, 65, 33) 40px solid;
     margin: 0;
+    float: left;
     box-sizing: border-box
 }
 .projeto{
@@ -87,9 +148,7 @@ li a{
     padding: 0 5%;
     width: 40%;
     font-size: 20px;
-    padding-top: 3%;
-    padding-bottom: 6%;
-    text-align: justify;
+    padding-top: 4%;
     margin: 0;
 }
 .projeto h3{
@@ -104,10 +163,12 @@ li a{
     font-size: 29px;
     font-family: 'Roboto Condensed', sans-serif;
     
+    
 }
 #imagedois{
-    width: 100%;
+    padding-right: 10%;
     padding-top: 29%;
+    width: 100%;
     margin: 0;
     
 }
@@ -124,37 +185,38 @@ li a{
     padding-right: 2%;
     margin: 0;
 }
-.coluna h3{
-    float: right;
+#banco h3{
+    float: left;
     width: 100%;
     margin: 0;
     text-align: center;
-    margin-right: 235px;
-    margin-bottom: 10%;
-    padding-right: 180px;
-    padding-bottom: 0px;
-    padding-top: 12%;
+    margin-bottom: 5%;
+    padding-right: 6%;
+    padding-top: 5%;
     font-size: 29px;
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
     
 }
 #image{
-    width: 80%;
-    padding-top: 29%;
+    width: 85%;
+    padding-top: 4%;
     margin: 0;
+    float: left;
+    padding-left: 9%;
     
 }
 .colunadois{
-    float: left;
-    width: 40%;
+    float: right;
+    width: 37%;
     font-size: 20px;
-    padding-right: 4%;
+    padding-right: 9.6%;
     padding-top: 5%;
-    padding-left: 5%;
+    padding-left: 1%;
+    margin: 0;
     
 }
-#cordois{
+.cordois{
     background-color: #f7f7f7;
     float: left;
     
@@ -165,7 +227,7 @@ li a{
     box-sizing: border-box;
 }
 #curiosidades h3{
-    padding-top: 55px;
+    padding-top: 5%;
     font-size: 29px;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
@@ -214,6 +276,7 @@ li a{
     padding-left: 54%;
     text-align: center;
     margin: 0;
+    padding-top: 1%;
     
 }
 .lista{
@@ -269,6 +332,7 @@ ul.disc{
     font-size: 29px; 
     font-family: 'Roboto Condensed', sans-serif;
     margin-bottom:10%;
+    padding-top: 7%;
 }
 .colunatres{
     margin: 0;
@@ -278,7 +342,13 @@ ul.disc{
     font-size: 20px;
 }
 .colunatres img{
-    padding-top: 29%;
+    padding-top: 30%;
+    width: 60%;
+    padding-left: 10%;
+}
+footer{
+    margin: 0;
+    padding: 0;
 }
 #contato{
     background-color: rgb(36, 28, 73);
@@ -315,63 +385,508 @@ ul.disc{
     text-decoration: none;
     color: rgb(174, 157, 248);
 }
-.email img{
-    width: 3%;
-    float: left;
-    padding: 1% 0 0 3%;
-}
-.email address{
+.email{
     display: flex;
-    color: rgb(174, 157, 248);
-    padding: 1.7% 0 0 1%;
-
-}
-.instagram address{
     color: #ae9df8;
-    padding: 2.6% 0 0 0;
-   
+    padding-top: 1%;
+    font-size: 22px;
+}
+.email img{
+    width: 5%;
+    padding-right: 1%;
+}
+.instagram{
+    display: flex;
+    color: #ae9df8;
+    padding-top: 1%;
+    font-size: 22px;
 }
 .instagram img{
-    width: 15%;
-    float: left;
-    padding: 1% 0 0 0;
-    margin: 0;
-
+    width: 5%;
+    padding-right: 1%;
 }
 .telefone img{
     width: 5%;
-    float: left;
-    padding: 2.5% 0 0 0;
+    padding-right: 1%;
 }
-.telefone address{
+.telefone {
+    display: flex;
     color: #ae9df8;
-    float: left;
-    padding: 3% 0 0 0;
+    padding-top: 1.5%;
+    font-size: 22px;
+    
 }
-@media screen and (max-width:800px){
-    nav{
-        visibility: hidden;
+@media screen and (max-width:400px){
+    body{
+        margin: 0;
     }
+    
     h2{
         margin: 0;
+        width: 80%;
+        font-size: 35px;
     }
     h1{
         margin: 0;
         padding: 0;
+        width: 80%;
+        font-size: 60px;
+        margin-bottom: 1%;
+    }
+    #capa a{
+        margin-right: 19%;
+        text-align: left;
+        box-sizing: border-box;
+        width: 60%;
+    }
+    .logo{
+        width: 15%;
+        padding-left: 5%;
+    }
+    .menum nav{
+        visibility: hidden;
+    }
+    #cabecalho{
+        width: 10%;
     }
     #projeto{
         float: none;
         width: 100%;
         display: block;
+        border-left: rgb(33, 65, 33) 10px solid;
+        margin: 0;
     }
     .projeto{
         float: none;
-        width: 100%;
+        width: 80%;
         display: block;
+        box-sizing: border-box;
+        font-size: 18px;
+        text-align: center;
+        padding-right: 1%;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .projeto img{
+        width: 100%;
+        padding-left: 3%;
+        margin: 0;
     }
     .projeto h3{
         float: none;
         width: 100%;
         display: block;
+        margin-left: 1%;
+        text-align: center;
+        margin: 0;
+    }
+    #banco{
+        float: none;
+        width: 100%;
+        display: block;
+        border-left: rgb(28, 102, 28) 10px solid;
+        margin: 0;
+    }
+    #banco h3{
+        padding-top: 10%;
+        padding-right: 8%;
+        margin: 0;
+    }
+    .coluna img{
+        box-sizing: border-box;
+        padding-right: 10%;
+        padding-bottom: 10%;
+        margin: 0;
+    }
+    #image{
+        width: 100%;
+        margin: 0;
+    }
+    .coluna{
+        float: none;
+        width: 90%;
+        font-size: 18px;
+        text-align: center;
+        padding-left: 4%;
+        margin: 0;
+    }
+    .colunadois{
+        float: none;
+        width: 90%;
+        font-size: 18px;
+        text-align: center;
+        padding-left: 7%;
+        padding-top: 3%;
+        margin: 0;
+    }
+    .colunadois iframe{
+        float: none;
+        width: 100%;
+        margin-bottom: 10%;
+        margin: 0;
+    }
+    #curiosidades{
+        border-left:  rgb(46, 145, 46) 10px solid;
+        margin: 0; 
+        float: none;
+        width: 100%;
+        display: block;
+    
+    }
+    #curiosidades h3{
+        float: none;
+        margin: 0;
+    }
+    #indigenas{
+        float: none;
+        width: 78%;
+        font-size: 18px;
+        text-align: center;
+        padding-left: 10%;
+        margin: 0;
+    }
+    #mulheres{
+        float: none;
+        width: 78%;
+        font-size: 18px;
+        text-align: center;
+        padding-left: 10%;
+        margin: 0;
+    }
+    #plantar{
+        float: none;
+        width: 100%;
+        display: block;
+        border-left: rgb(20, 167, 20) 10px solid;
+        margin: 0;
+    }
+    .lista h3{
+        padding-left: 2%;
+        padding-top: 10%;
+        margin: 0;
+    }
+    .lista{
+        float: none;
+        width: 90%;
+        margin: 0;
+    }
+    .listadois{
+        float: none;
+        width: 90%;
+        padding-left: 4%;
+        margin: 0;
+    }
+    #apresentacao{
+        float: none;
+        width: 100%;
+        display: block;
+        border-left: rgb(12, 209, 12) 10px solid;
+        margin: 0;
+    }
+    .colunatres{
+        float: none;
+        width: 78%;
+        margin: 0;
+    }
+    .colunatres img{
+        width: 85%;
+        padding-top: 2%;
+        padding-right: 3%;
+        padding-left: 3%;
+        padding-bottom: 2%;
+        margin: 0;
+    }
+    .colunatres h3{
+       width:100%;
+       padding-right: 1%;
+       padding-left: 1%;
+       margin: 0;
+    }
+    footer{
+        box-sizing: border-box;
+        margin: 0;
+        
+    }
+    #contato{
+        float: none;
+        width: 100%;
+        display: block;
+        background-color: rgb(36, 28, 73);
+        height: 900px;
+        margin: 0;
+    }
+    .finalizacao{
+        float: none;
+        width: 80%;
+        text-align: center;
+        margin: 0;
+    }
+    .email{
+        float: none;
+        width: 80%;
+        font-size: 15px;
+        padding-left: 14%;
+        padding-top: 5%;
+        margin: 0;
+        padding-right: 0;
+    }
+    .email img{
+        width: 6%;
+        margin: 0;
+    }
+    .instagram{
+        float: none;
+        width: 80%;
+        font-size: 15px;
+        padding-left: 14%;
+        padding-top: 5%;
+        margin: 0;
+         padding-right: 0;
+    }
+    .instagram img{
+        width: 6%;
+        margin: 0;
+    }
+    .telefone{
+        float: none;
+        width: 80%;
+        font-size: 15px;
+        padding-left: 14%;
+        padding-top: 5%;
+        margin: 0;
+         padding-right: 0;
+    }
+    .telefone img{
+        width: 6%;
+        margin: 0;
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        margin: 0;
+       
+    }
+    .menum nav{
+        visibility: hidden;
+    }
+    .menu img{
+        width: 3%;
+    }
+    h2{
+        margin: 0;
+        width: 90%;
+        font-size: 35px;
+        padding-left: 5%;
+    }
+    h1{
+        margin: 0;
+        padding: 0;
+        width: 80%;
+        font-size: 60px;
+        margin-bottom: 1%;
+        padding-left: 9%;
+    }
+    #capa a{
+        margin-right: 1%;
+        text-align: left;
+        box-sizing: border-box;
+        width: 60%;
+    }
+    .logo{
+        width: 10%;
+        padding-left: 5%;
+        height: 100%;
+    }
+    #cabecalho{
+        box-sizing: border-box;
+        width: 96.7%;
+    }
+    #projeto{
+        float: none;
+        width: 100%;
+        display: block;
+        border-left: rgb(33, 65, 33) 10px solid;
+    }
+    .projeto{
+        float: none;
+        width: 93%;
+        display: block;
+        box-sizing: border-box;
+        font-size: 18px;
+        text-align: center;
+        padding-right: 1%;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .projeto img{
+        width: 20%;
+    }
+    .projeto h3{
+        float: none;
+        width: 100%;
+        display: block;
+        text-align: left;
+        margin:0;
+        padding-top: 6%;
+    }
+    #banco{
+        float: none;
+        width: 100%;
+        display: block;
+        border-left: rgb(28, 102, 28) 10px solid;
+    }
+    #banco h3{
+        padding-top: 10%;
+        padding-right: 8%;
+    }
+    .coluna img{
+        box-sizing: border-box;
+        padding-right: 10%;
+        padding-bottom: 10%;
+    }
+    #image{
+        width: 100%;
+    }
+    .coluna{
+        float: none;
+        width: 90%;
+        font-size: 18px;
+        text-align: center;
+        padding-left: 4%;
+    }
+    .colunadois{
+        float: none;
+        width: 80%;
+        font-size: 18px;
+        text-align: center;
+        padding-left: 7%;
+        padding-top: 3%;
+    }
+    .colunadois iframe{
+        float: none;
+        width: 100%;
+        margin-bottom: 10%;
+        padding-left: 3%;
+    }
+    #curiosidades{
+        border-left:  rgb(46, 145, 46) 10px solid;
+        margin: 0; 
+        float: none;
+        width: 100%;
+        display: block;
+    
+    }
+    #curiosidades h3{
+        float: none;
+    }
+    #indigenas{
+        float: none;
+        width: 78%;
+        font-size: 18px;
+        text-align: center;
+        padding-left: 10%;
+    }
+    #mulheres{
+        float: none;
+        width: 78%;
+        font-size: 18px;
+        text-align: center;
+        padding-left: 10%;
+    
+    }
+    #plantar{
+        float: none;
+        width: 100%;
+        display: block;
+        border-left: rgb(20, 167, 20) 10px solid;
+    }
+    .lista h3{
+        padding-left: 2%;
+        padding-top: 10%;
+    }
+    .lista{
+        float: none;
+        width: 90%;
+    }
+    .listadois{
+        float: none;
+        width: 90%;
+        padding-left: 4%;
+    }
+    #apresentacao{
+        float: none;
+        width: 100%;
+        display: block;
+        border-left: rgb(12, 209, 12) 10px solid;
+    }
+    .colunatres{
+        float: none;
+        width: 78%;
+    }
+    .colunatres img{
+        width: 60%;
+        padding: 3% 3% 5% 30%;
+    }
+    .colunatres h3{
+       width:100%;
+       padding-right: 1%;
+       padding-left: 1%;
+    }
+    footer{
+        box-sizing: border-box;
+        margin: 0;
+        
+    }
+    #contato{
+        float: none;
+        width: 100%;
+        display: block;
+        background-color: rgb(36, 28, 73);
+        height: 350px;
+        margin: 0;
+    }
+    .finalizacao{
+        float: none;
+        width: 80%;
+        text-align: center;
+        margin: 0;
+    }
+    .email{
+        float: none;
+        width: 80%;
+        font-size: 15px;
+        padding-left: 14%;
+        padding-top: 5%;
+        margin: 0;
+        padding-right: 0;
+    }
+    .email img{
+        width: 6%;
+    }
+    .instagram{
+        float: none;
+        width: 80%;
+        font-size: 15px;
+        padding-left: 14%;
+        padding-top: 2%;
+        margin: 0;
+         padding-right: 0;
+    }
+    .instagram img{
+        width: 6%;
+    }
+    .telefone{
+        float: none;
+        width: 80%;
+        font-size: 15px;
+        padding-left: 14%;
+        padding-top: 2%;
+        margin: 0;
+         padding-right: 0;
+    }
+    .telefone img{
+        width: 6%;
     }
 }
