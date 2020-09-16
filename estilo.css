@@ -702,6 +702,15 @@ footer{
     }
     .barra{
        height: 50%;
+        width: 20%;
+    }
+   .barra nav{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    }
+    #check{
+    display: none;
     }
     .menu img{
         width: 10%;
@@ -709,10 +718,35 @@ footer{
         display: block;
     }
     #icone{
-    cursor: pointer;
-    padding: 2%;
-    position: absolute;
-    z-index: 1;
+        cursor: pointer;
+        padding: 2%;
+        position: absolute;
+        z-index: 1;
+    }
+    .menu ul{
+        list-style: none;
+     }
+    .menu a{
+       display: block;
+    }
+    .link{
+        color: rgb(174, 157, 248);
+        padding: 0;
+        font-family: 'Arial';
+        font-size: 20px;
+        transition: all .2s linear;
+        border-bottom: 1px solid rgba(174, 157, 248, 0.555);
+    }
+    .link:hover{
+        background-color: rgb(27, 27, 117);
+    }
+    #check:checked ~ .barra{
+        transform: translateX(300px);
+    }
+    #check:checked ~ .barra nav a .link{
+        opacity: 1;
+        margin-top: 0;
+        transition-delay: .1s; 
     }
     h2{
         margin: 0;
