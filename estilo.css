@@ -700,11 +700,13 @@ footer{
     .menum nav{
         visibility: hidden;
     }
+    .barra{
+       height: 50%;
+    }
     .menu img{
-        width: 3%;
+        width: 10%;
         float: none;
         display: block;
-        box-sizing: border-box;
     }
     h2{
         margin: 0;
