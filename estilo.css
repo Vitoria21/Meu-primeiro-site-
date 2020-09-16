@@ -726,7 +726,7 @@ footer{
     }
     .logo{
         width: 10%;
-        padding-left: 5%;
+       padding-right: 0;
         height: 100%;
         box-sizing: border-box;
     }
@@ -781,6 +781,7 @@ footer{
     }
     #image{
         width: 95%;
+        padding-left: 0;
     }
     .coluna{
         float: none;
@@ -829,6 +830,7 @@ footer{
         text-align: center;
         padding-left: 10%;
         margin: 0;
+        text-align: center;
         box-sizing: border-box;
     
     }
