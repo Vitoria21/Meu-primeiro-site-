@@ -60,7 +60,7 @@ h2{
     padding-bottom: 17px;
     transition: .6s;
 }
-#menu{
+#menu nav ul li a icone{
     visibility: hidden;
 }
 .menum nav{
