@@ -691,6 +691,7 @@ footer{
     }
     .logo{
         float: right;
+        padding-right: 3%;
     }
     .menum nav{
         visibility: hidden;
@@ -817,12 +818,16 @@ footer{
     }
     #mulheres{
         float: none;
-        width: 78%;
+        width: 100%;
         font-size: 18px;
         text-align: center;
-        padding-left: 0;
+        padding-left: 10%;
         margin: 0;
+        box-sizing: border-box;
     
+    }
+    #mulheres img{
+        padding-top: 2%;
     }
     #plantar{
         float: none;
