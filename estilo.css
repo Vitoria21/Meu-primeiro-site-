@@ -550,9 +550,9 @@ footer{
         float: none;
         width: 100%;
         font-size: 18px;
-        text-align: center;
+        text-align: justify;
         padding-left: 10%;
-        margin: 0;
+        margin-top: 0;
        
     }
     #mulheres img{
