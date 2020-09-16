@@ -767,7 +767,7 @@ footer{
     position: fixed;
     transition: all .2s linear;
     background-color: rgb(36, 28, 73);
-    left: -300px;
+    left: -400px;
     
 }
    .barra nav{
@@ -811,7 +811,7 @@ footer{
         background-color: rgb(27, 27, 117);
     }
     #check:checked ~ .barra{
-        transform: translateX(300px);
+        transform: translateX(400px);
     }
     #check:checked ~ .barra nav a .link{
         opacity: 1;
