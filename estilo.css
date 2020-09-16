@@ -446,6 +446,9 @@ footer{
     .menum nav{
         visibility: hidden;
     }
+    .menu{
+        position: fixed;
+    }
     #cabecalho{
         width: 10%;
     }
