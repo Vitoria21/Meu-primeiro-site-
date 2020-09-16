@@ -823,6 +823,7 @@ footer{
         padding-left: 5%;
         height: 100%;
         float: right;
+        padding-rigth: 3%;
     }
     #cabecalho{
         box-sizing: border-box;
