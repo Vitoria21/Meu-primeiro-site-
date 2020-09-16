@@ -93,8 +93,8 @@ h2{
     z-index: 1;
 }
 header label{
-    height: 47.5%;
-    width: 20%;
+    height: 45%;
+    width: 60%;
     position: absolute;
     transition: all .2s linear;
     background-color: rgb(36, 28, 73);
@@ -425,7 +425,8 @@ footer{
         overflow-x: hidden;
     }
      #icone img{
-        width: 12%; 
+        width: 15%;
+         padding-top: 1%;
     }
     #check{
         display: none;
@@ -439,7 +440,7 @@ footer{
         padding-left: 3%;
     }
     header label{
-       height: 41%;
+       height: 45%;
        width: 60%;
        position: fixed;
        transition: all .2s linear;
@@ -486,7 +487,6 @@ footer{
     }
     #menu img{
         width: 15%;
-        padding-top: 1%:
     }
     h2{
         margin: 0;
@@ -744,7 +744,6 @@ footer{
     }
     #menu img{
         width: 15%;
-        padding-top: 1%;
     }
     #check{
         display: none;
@@ -758,7 +757,7 @@ footer{
         padding-left: 3%;
     }
     header label{
-       height: 41%;
+       height: 45%;
        width: 60%;
        position: fixed;
        transition: all .2s linear;
