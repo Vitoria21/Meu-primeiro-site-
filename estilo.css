@@ -560,7 +560,8 @@ footer{
     #mulheres img{
         margin-top: 5%;
          float: none;
-         width: 50%;
+         width: 10%;
+        padding-top: 0;
     }
     #plantar{
         float: none;
