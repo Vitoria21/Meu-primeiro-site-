@@ -541,6 +541,7 @@ footer{
     #indigenas{
         float: none;
         width: 78%;
+        display: block;
         font-size: 18px;
         text-align: center;
         padding-left: 10%;
@@ -549,6 +550,7 @@ footer{
     #mulheres{
         float: none;
         width: 78%;
+        display: block;
         font-size: 18px;
         text-align: center;
         padding-left: 10%;
