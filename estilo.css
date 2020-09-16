@@ -77,7 +77,7 @@ h2{
     color: rgb(160, 248, 157);
     font-size: 20px;
 }
-.menu{
+#menu{
     visibility: hidden;
 }
 #icone img{
@@ -419,6 +419,7 @@ footer{
 @media screen and (max-width:300px){
     body{
         margin: 0;
+        overflow-x: hidden;
     }
      #icone img{
         width: 12%; 
@@ -727,7 +728,7 @@ footer{
 @media screen and (max-width:800px){
     body{
         margin: 0;
-       
+        overflow-x: hidden;
     }
     .menum nav{
         visibility: hidden;
