@@ -482,7 +482,8 @@ footer{
         transition-delay: .1s; 
     }
     #menu img{
-        width: 3%;
+        width: 15%;
+        padding-top: 1%:
     }
     h2{
         margin: 0;
