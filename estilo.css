@@ -111,10 +111,10 @@ header label{
     text-decoration: none;
     padding-top: 10%;
 }
-.menu ul{
+#menu ul{
     list-style: none;
 }
-.menu a{
+#menu a{
     display: block;
 }
 .link{
