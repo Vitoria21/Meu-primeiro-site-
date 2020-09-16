@@ -544,7 +544,7 @@ footer{
         font-size: 18px;
         text-align: center;
         padding-left: 10%;
-        margin-bottom: 8%;
+        margin-bottom: 10%;
     }
     #mulheres{
         float: none;
@@ -552,7 +552,6 @@ footer{
         font-size: 18px;
         text-align: justify;
         padding-left: 10%;
-        margin-top: 0;
        
     }
     #mulheres img{
