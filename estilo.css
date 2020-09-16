@@ -427,12 +427,12 @@ footer{
         width: 20%;
     }
    .barra nav{
-    width: 100%;
-    position: absolute;
-    top: 60px;
+       width: 100%;
+       position: absolute;
+       top: 60px;
     }
     #check{
-    display: none;
+       display: none;
     }
     .menu img{
         width: 10%;
