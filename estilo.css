@@ -110,10 +110,10 @@ h2{
     text-decoration: none;
     padding-top: 10%;
 }
-.menu ul{
+#menu ul{
     list-style: none;
 }
-.menu a{
+#menu a{
     display: block;
 }
 .link{
@@ -416,7 +416,7 @@ footer{
     font-size: 22px;
     
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:300px){
     body{
         margin: 0;
     }
