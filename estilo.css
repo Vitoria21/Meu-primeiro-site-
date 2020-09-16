@@ -60,6 +60,9 @@ h2{
     padding-bottom: 17px;
     transition: .6s;
 }
+.menum{
+    visibility: hidden;
+}
 .menum nav{
     float: right;
 }
