@@ -808,10 +808,11 @@ footer{
     }
     #mulheres{
         float: none;
-        width: 78%;
+        width: 100%;
         font-size: 18px;
         text-align: center;
         padding-left: 10%;
+        margin: 0;
     
     }
     #plantar{
