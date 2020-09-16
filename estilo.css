@@ -708,6 +708,12 @@ footer{
         float: none;
         display: block;
     }
+    #icone{
+    cursor: pointer;
+    padding: 2%;
+    position: absolute;
+    z-index: 1;
+    }
     h2{
         margin: 0;
         width: 85%;
@@ -719,7 +725,7 @@ footer{
         padding: 0;
         width: 80%;
         font-size: 60px;
-        padding-left: 2%;
+        padding-left: 9%;
     }
     #capa a{
         margin-right: 5%;
