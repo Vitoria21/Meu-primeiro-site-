@@ -447,9 +447,11 @@ footer{
        display: none;
     }
     #menu img{
-        width: 10%;
+        width: 15%;
         float: none;
         display: block;
+        padding-top: 3%;
+        padding-left: 3%;
        
     }
     #icone{
@@ -777,9 +779,11 @@ footer{
         display: none;
     }
     #menu img{
-        width: 10%;
+        width: 15%;
         float: none;
         display: block;
+        padding-top: 3%;
+        padding-left: 3%;
        
     }
     #icone{
