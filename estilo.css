@@ -425,6 +425,9 @@ footer{
     .logo{
         float: right;
     }
+    #menu{
+        visibility: visible;
+    }
      .barra{
         height: 41%;
         width: 60%;
@@ -432,7 +435,7 @@ footer{
         transition: all .2s linear;
         background-color: rgb(36, 28, 73);
         left: -300px;
-          visibility: visible;
+          
     
     }
    .barra nav{
@@ -447,7 +450,7 @@ footer{
         width: 10%;
         float: none;
         display: block;
-        visibility: visible;
+       
     }
     #icone{
         cursor: pointer;
@@ -744,6 +747,9 @@ footer{
         margin: 0;
         overflow-x: hidden;
     }
+    #menu{
+        visibility: visible;
+    }
     .logo{
         float: right;
         padding-right: 3%;
@@ -774,7 +780,7 @@ footer{
         width: 10%;
         float: none;
         display: block;
-        visibility: visible;
+       
     }
     #icone{
         cursor: pointer;
@@ -795,7 +801,7 @@ footer{
         font-size: 20px;
         transition: all .2s linear;
         border-bottom: 1px solid rgba(174, 157, 248, 0.555);
-        visibility: visible;
+        
     }
     .link:hover{
         background-color: rgb(27, 27, 117);
