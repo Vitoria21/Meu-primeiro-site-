@@ -556,6 +556,8 @@ footer{
     }
     #mulheres img{
         margin-top: 5%;
+         float: none;
+         width: 100%;
     }
     #plantar{
         float: none;
