@@ -92,7 +92,7 @@ h2{
     position: absolute;
     z-index: 1;
 }
-header label{
+.barra{
     height: 45%;
     width: 60%;
     position: absolute;
@@ -439,7 +439,7 @@ footer{
         padding-top: 3%;
         padding-left: 3%;
     }
-    header label{
+    .barra{
        height: 45%;
        width: 60%;
        position: fixed;
@@ -756,7 +756,7 @@ footer{
         padding-top: 3%;
         padding-left: 3%;
     }
-    header label{
+    .barra{
        height: 45%;
        width: 60%;
        position: fixed;
@@ -803,7 +803,7 @@ footer{
         transition-delay: .1s; 
     }
     #menu img{
-        width: 3%;
+        width: 15%;
     }
     h2{
         margin: 0;
