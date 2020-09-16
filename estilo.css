@@ -420,7 +420,9 @@ footer{
     body{
         margin: 0;
     }
-    
+    .logo{
+        visibility: hidden;
+    }
     h2{
         margin: 0;
         width: 80%;
