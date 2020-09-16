@@ -738,6 +738,10 @@ footer{
         width: 15%;
         padding-top: 1%;
     }
+    #menu img{
+        width: 15%;
+        padding-top: 1%;
+    }
     #check{
         display: none;
     }
